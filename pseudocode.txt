@@ -1,0 +1,18 @@
+BEGIN
+    FOR round FROM 1 TO 3
+        DISPLAY "Round number:"
+        DISPLAY round
+
+        DISPLAY "Enter first string: "
+        INPUT firstString
+
+        DISPLAY "Enter second string: "
+        INPUT secondString
+
+        SET result = firstString + secondString
+
+        DISPLAY "Concatenated result: " + result
+    END FOR
+
+    END PROGRAM
+END
